@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  justify-content: center;
+  background: rgb(222,184,135);
+  background: radial-gradient(circle, rgba(222,184,135,1) 15%, rgba(51,51,51,1) 77%);
+  font-family: 'Amatic SC', cursive;
+}
+
+main .counter-box {
+  margin: 10rem 0;
+  height: 500px;
+  width: 500px;
+  background: rgb(51,51,51);
+  background: radial-gradient(circle, rgba(51,51,51,1) 60%, rgba(222, 184, 135, 0.05) 75%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 50px burlywood;
+}
+
+main button {
+  background-color: burlywood;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  width: 120px;
+  border: none;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main button:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+header {
+  background: rgb(51,51,51);
+  display: block;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: space-between;
+  align-items: center;
+  height: 3rem;
+  padding: 1rem 5rem;
+}
+
+header p {
+  text-align: right;
+}
+
+footer {
+  background: rgb(51,51,51);
+  color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 3rem;
+  padding: .5rem;
+}
