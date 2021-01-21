@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+  font-family: 'Berkshire Swash', cursive;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5rem;
+  background-image: linear-gradient(
+    to right top,
+    #530101,
+    #500000,
+    #00133b,
+    #04002c
+  );
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 0 0 50px white;
+}
+
+.gameScore {
+  font-size: 2rem;
+  font-family: 'Concert One', cursive;
+  letter-spacing: .5rem;
+  margin: 3rem 1rem;
+}
+
+button {
+  font-family: 'Concert One', cursive;
+  font-size: 1rem;
+  background: #ffffff;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
