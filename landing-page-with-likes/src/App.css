@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Roboto+Slab&display=swap");
+
+:root {
+  --dark-blue: #193b52;
+  --main-blue: #6694b1;
+  --light-blue: #cce6f0;
+  --main-dark: #333333;
+  --main-bg: #2d2d2d;
+  --main-yellow: #ebe97f;
+  --main-gray: #b3b2b3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+header,
+footer {
+  background-color: var(--main-gray);
+  color: var(--main-bg);
+  text-align: center;
+  padding: 1rem;
+}
+
+main.bg {
+  background: #2d2d2d url("./assets/wolf-bg.jpg") no-repeat right center/cover;
+  height: 85vh;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+button {
+  background-color: var(--main-yellow);
+  color: var(--main-dark);
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #c5c469;
+}
+
+.hero-text,
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  padding: 22rem 30rem 0 5rem;
+  color: var(--main-yellow);
+}
+
+.hero-heading {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.hero-punchline {
+  display: flex;
+}
+
+p.likes {
+  color: var(--main-gray);
+  padding: 10rem 0 1rem 5rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding-left: 5rem;
+}
