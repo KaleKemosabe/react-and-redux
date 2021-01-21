@@ -1,0 +1,46 @@
+.form {
+    background: rgb(51,51,51);
+    background: linear-gradient(294deg, rgb(147, 147, 147) 1%, rgba(15,163,177,1) 77%);
+    padding: 1rem;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .form-grid label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
+    margin-top: .5rem;
+}
+
+.form .form-grid input,
+.form .form-grid textarea,
+.form .form-grid select {
+    width: 15rem;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.form .form-grid select {
+    width: 16rem;
+}
+
+.form .form-grid textarea {
+    width: 15rem;
+    height: 5rem;
+}
+
+.form .form-grid input.button {
+    background-color: coral;
+    margin-top: 1rem;
+    width: 16rem;
+}
+
+.form .form-grid input.button:hover {
+    cursor: pointer;
+    background-color: rgb(250, 91, 33);
+}

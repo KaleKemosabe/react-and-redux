@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+.result {
+    background: rgb(51,51,51);
+    background: linear-gradient(50deg, rgb(147, 147, 147) 1%, rgba(15,163,177,1) 77%);
+    padding: 1rem;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.result p {
+    display: grid;
+    justify-content: flex-start;
+    margin-top: .5rem;
+}
+
+.result p > span {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 3rem;
+}

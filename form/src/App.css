@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Stencil+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --text: #333333;
+  --dark: #0D8792;
+  --regular: #0FA3B1;
+  --light: #B5E2FA;
+  --input: #FAFAF8;
+  --highlight: coral;
+}
+
+* {
+  color: var(--text);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--light);
+}
+
+header {
+  background-color: var(--dark);
+  display: grid;
+  justify-content: center;
+  height: 6rem;
+  padding: 1rem 5rem;
+}
+
+.header-title,
+.header-title i {
+  color: var(--input);
+}
+
+.main-area {
+  display: grid;
+  grid-template-columns: 20rem 80rem;
+  justify-content: center;
+  grid-gap: 2rem;
+  height: 75vh;
+  padding: 1rem 5rem;
+  margin: 0 30rem;
+  background-color: var(--light);
+}
+
+h1,
+h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+footer {
+  background-color: var(--dark);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 3rem;
+  padding: .5rem;
+}
