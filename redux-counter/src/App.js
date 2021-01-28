@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Button, ButtonGroup } from '@material-ui/core';
-// import * as actionTypes from '../actions/actions';
+import * as actionTypes from './actions/actions';
 import './App.css';
 
 class App extends Component {
